@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="favicon.svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>IRLIX-Приветствтую!</title>
+	<script src="./script.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<a class="anchor" href="https://irlix.com/">
+				<div class="header__logo">
+					<img class="logo" src="logo-optimized.svg" alt="IRLIX">
+				</div>
+			</a>
+		</header>
+		<main>
+			<div class="main__header">
+				<h1>Приветствую!</h1>
+			</div>
+			<div class="container">
+				<div class="main__text">
+					<p>Давай обновим список и начнем обучение</p>
+					<br>
+					<p>Список:</p>
+					<ul id="out"></ul>
+				</div>
+				<div class="main__form">
+					<div class="main__list">
+						<div class="main__list__counter">
+							<label id="list-number-label" for="list-number">Номер записи</label>
+							<input type="number" min="1" name="list-number" id="list-number" placeholder="Введите номер записи"
+								required />
+						</div>
+						<div class="main__list__text">
+							<label id="list-text-label" for="list-text">Название записи</label>
+							<input id="list-text" type="text" name="list-text" placeholder="Введите название записи" required />
+						</div>
+					</div>
+					<button id="add" class="add-button">Добавить запись</button>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<a class="anchor" href="https://irlix.com/">
+				<div class="footer__logo">
+					<img class="logo" src="logo-optimized.svg" alt="IRLIX">
+				</div>
+			</a>
+		</footer>
+	</div>
+</body>
+
+</html>
